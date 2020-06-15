@@ -7,6 +7,7 @@ class Cliente {
         this.cpf = '';
         this.dataNascimento = '';
         this.endereco = '';
+        Object.freeze(this);
 
     }
 
